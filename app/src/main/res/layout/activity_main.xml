@@ -11,7 +11,7 @@
     <fragment
         android:id="@+id/main_view"
 
-        android:name="com.example.weatherapp.ui.weather.CurrentWeatherFragment"
+        android:name="com.example.weatherapp.ui.weather.current.CurrentWeatherFragment"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

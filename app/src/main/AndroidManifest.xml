@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherApp">
         <activity
-            android:name=".ui.weather.CurrentWeatherFragment"
+            android:name=".ui.weather.current.CurrentWeatherFragment"
             android:exported="false" />
         <activity
             android:name=".ui.MainViewFragment"

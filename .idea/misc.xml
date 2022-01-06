@@ -8,6 +8,8 @@
         <entry key="..\:/Users/achristopherson/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_main_view_fragment.xml" value="0.1" />
         <entry key="..\:/Users/achristopherson/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/current_weather_fragment.xml" value="0.1078125" />
         <entry key="..\:/Users/achristopherson/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/fragment_current_weather.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/achristopherson/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/future_weather_detail_fragment.xml" value="0.1078125" />
+        <entry key="..\:/Users/achristopherson/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/future_weather_list_fragment.xml" value="0.1078125" />
         <entry key="..\:/Users/achristopherson/AndroidStudioProjects/WeatherApp/app/src/main/res/menu/bottom_nav.xml" value="0.22135416666666666" />
       </map>
     </option>
