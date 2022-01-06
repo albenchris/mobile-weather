@@ -1,11 +1,11 @@
-package com.example.weatherapp
+package com.example.weatherapp.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.weatherapp.R
 
 class MainViewFragment : Fragment() {
     override fun onCreateView(

@@ -7,11 +7,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    
+
     <fragment
         android:id="@+id/main_view"
 
-        android:name="com.example.weatherapp.MainViewFragment"
+        android:name="com.example.weatherapp.ui.weather.CurrentWeatherFragment"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
