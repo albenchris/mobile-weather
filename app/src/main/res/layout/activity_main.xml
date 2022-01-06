@@ -6,19 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.MainActivity">
-
-    <Toolbar
-        android:id="@+id/toolar"
-
-        android:background="?colorPrimary"
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
-
+    tools:context=".MainActivity">
+    
     <fragment
         android:id="@+id/main_view"
+
+        android:name="com.example.weatherapp.MainViewFragment"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,6 +20,8 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"
+
+        app:menu="@menu/bottom_nav"
 
         android:background="@color/white"
 
