@@ -8,10 +8,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/main_view"
+<!--    <fragment-->
+<!--        android:id="@+id/main_view"-->
 
-        android:name="com.example.weatherapp.ui.weather.current.CurrentWeatherFragment"
+<!--        android:name="com.example.weatherapp.ui.weather.current.CurrentWeatherFragment"-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        />-->
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/mobile_navigation"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,8 +31,7 @@
         />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNav"
-
+        android:id="@+id/bottom_nav"
         app:menu="@menu/bottom_nav"
 
         android:background="@color/white"

@@ -2,19 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/todaysWeatherNav"
+        android:id="@+id/currentWeatherFragment"
         android:title="Today"
         android:icon="@drawable/ic_baseline_today_24"
         />
 
     <item
-        android:id="@+id/moreWeatherNav"
+        android:id="@+id/futureWeatherListFragment"
         android:title="10-Day"
         android:icon="@drawable/ic_baseline_calendar_month_24"
         />
 
     <item
-        android:id="@+id/settingsNav"
+        android:id="@+id/settingsFragment"
         android:title="Settings"
         android:icon="@drawable/ic_baseline_settings_24"
         />
