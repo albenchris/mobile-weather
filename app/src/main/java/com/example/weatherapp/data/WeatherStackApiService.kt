@@ -25,9 +25,7 @@ interface WeatherStackApiService {
 
     companion object {
         operator fun invoke() : WeatherStackApiService {
-
             val requestInterceptor = Interceptor { chain ->
-
                 val url = chain.request()
                     .url()
                     .newBuilder()
@@ -54,6 +52,5 @@ interface WeatherStackApiService {
                 .build()
                 .create(WeatherStackApiService::class.java)
         }
-
     }
 }
