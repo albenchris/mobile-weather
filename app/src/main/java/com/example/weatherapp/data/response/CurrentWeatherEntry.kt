@@ -1,8 +1,8 @@
-package com.example.weatherapp.data
+package com.example.weatherapp.data.response
 
 import com.google.gson.annotations.SerializedName
 
-data class Current(
+data class CurrentWeatherEntry(
     val cloudcover: Int,
     val feelslike: Int,
     val humidity: Int,

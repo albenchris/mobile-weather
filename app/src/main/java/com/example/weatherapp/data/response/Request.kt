@@ -1,4 +1,4 @@
-package com.example.weatherapp.data
+package com.example.weatherapp.data.response
 
 data class Request(
     val language: String,
